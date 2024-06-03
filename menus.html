@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dignans | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Catering Business">
+    <meta name="keywords" content="Food, Drinks, Orders">
+    <meta name="author" content="Dignans">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+<body>
+<div id ="main">
+    <nav>
+        <img src="logo.PNG" alt="Dignans Logo">
+        <img src="navicon.PNG" alt="Navigation" onclick="openNav()" style="width:128px;height:128px;">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="home.html">Home</a>
+            <a href="menus.html">Menus</a>
+            <a href="account.html">Account</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+    </nav>
+    <section id="menu">
+        <h1>Menu</h1>
+        <object data="menu.pdf" type="application/pdf" width="1500" height="400">
+            <p>Unable to display PDF file. Download instead.</p>
+        </object>
+    </section>
+    <section id="downloads">
+        <div>
+            <h3>Downloads</h3>
+            <a href="menu.docx" download>Menu</a>
+        </div>
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
